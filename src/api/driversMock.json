@@ -1,0 +1,85 @@
+{
+  "code": 0,
+  "descr": "OK",
+  "data": {
+    "crews_info": [
+      {
+        "crew_id": "1",
+        "car_mark": "Chevrolet",
+        "car_model": "Lacetti",
+        "car_color": "синий",
+        "car_number": "Е234КУ",
+        "driver_name": "Деточкин",
+        "driver_phone": "7788",
+        "lat": 56.855532,
+        "lon": 53.217462
+      },
+      {
+        "crew_id": "2",
+        "car_mark": "LADA",
+        "car_model": "Vesta",
+        "car_color": "синий",
+        "car_number": "М124КП",
+        "driver_name": "Василий",
+        "driver_phone": "2233",
+        "lat": 56.8732109,
+        "lon": 53.2251807
+      },
+      {
+        "crew_id": "3",
+        "car_mark": "BMW",
+        "car_model": "E140",
+        "car_color": "синий",
+        "car_number": "X777XX",
+        "driver_name": "Гераль из Ривии",
+        "driver_phone": "1234",
+        "lat": 56.8686029,
+        "lon": 53.2282705
+      },
+      {
+        "crew_id": "4",
+        "car_mark": "Volvo",
+        "car_model": "S70",
+        "car_color": "красный",
+        "car_number": "M444MM",
+        "driver_name": "Владимир",
+        "driver_phone": "7777",
+        "lat": 56.8618601,
+        "lon": 53.2302397
+      },
+      {
+        "crew_id": "5",
+        "car_mark": "Ford",
+        "car_model": "Focus",
+        "car_color": "черный",
+        "car_number": "А111АА",
+        "driver_name": "Александр",
+        "driver_phone": "89501111111",
+        "lat": 56.8548509,
+        "lon": 53.2183375
+      },
+      {
+        "crew_id": "6",
+        "car_mark": "Лада",
+        "car_model": "Семерка",
+        "car_color": "синий",
+        "car_number": "М721КС",
+        "driver_name": "Алексей",
+        "driver_phone": "8919",
+        "lat": 56.8425605,
+        "lon": 53.2285992
+      },
+      {
+        "crew_id": "7",
+        "car_mark": "Hyundai",
+        "car_model": "Solaris",
+        "car_color": "белый",
+        "car_number": "Ф567АС",
+        "driver_name": "Петров",
+        "driver_phone": "8899",
+        "lat": 56.860581,
+        "lon": 53.209223
+      }
+    ]
+  }
+}
