@@ -25,10 +25,14 @@ const Input: React.FC<IInput> = ({
     onChange(e.target.value);
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const handleEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       onEnter();
     }
+  };
+
+  const handleBlur = () => {
+    onEnter();
   };
 
   return (
@@ -38,7 +42,8 @@ const Input: React.FC<IInput> = ({
         value={value}
         disabled={disabled}
         onChange={handleChange}
-        onKeyDown={handleKeyDown}
+        onKeyDown={handleEnter}
+        onBlur={handleBlur}
       />
       {error && <AntdText type="danger">{error}</AntdText>}
     </div>
