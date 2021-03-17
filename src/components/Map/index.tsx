@@ -68,10 +68,6 @@ const Map: React.FC<IMap> = ({ store }) => {
               <YPlacemark
                 key={driver.crew_id}
                 geometry={[driver.lat, driver.lon]}
-                properties={{
-                  hintContent: "Stack Overflow",
-                  balloonContent: "Stack Overflow на русском",
-                }}
                 options={{
                   iconLayout: "default#image",
                   iconImageHref: taxiIcon,
